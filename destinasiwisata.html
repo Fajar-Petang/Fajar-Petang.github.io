@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+    margin: 0;
+  background-image: url('.jpg');
+  background-repeat: no-repeat;
+  background-size:2600px; 
+  font-family: sans-serif;
+
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>DESTINASI PANTAI</h1>
+
+<hr>
+
+<h2>Destinasi Wisata Bahari</h2>
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="https://www.google.com/maps/place/Teluk+Love/@-8.4408415,113.5870392,17z/data=!3m1!4b1!4m5!3m4!1s0x2dd6942520c45715:0x3cabb1f5dd90a01b!8m2!3d-8.4408415!4d113.5892279">
+      <img src="teluk love.jpg" alt="PAPUMA" style="width:100%">
+    </a>
+      <h3>Pantai Teluk Love</h3>
+      <p>Pantai teluk love ini salah satu objek wisata paling romantis di jatim khususnya jember, memiliki keunikan berbentuk hari serta dipercantik dengan perbukitan yang hijau di pinggir pantai membuat banyak orang menjadikan tempat ini sebagai wisata hits bagi anak muda.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+       <a href="https://www.google.com/maps/search/watu+ulo/@-8.4281779,113.5464438,14z/data=!3m1!4b1">
+    <img src="watuulo.jpg" alt="Lights" style="width:100%">
+       </a>
+      <h3>Pantai Watu Ulo</h3>
+      <p>selain menawarkan pemandangan exsotis objek tersebut menyediakan tempat bermain dan juga tempat berkemah (camping) yang membuat wisatawan betah berlama-lama disini.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="https://www.google.com/maps/place/Pantai+Payangan/@-8.436409,113.5791103,17z/data=!3m1!4b1!4m5!3m4!1s0x2dd427f96abc1d45:0x349dbb12eb1ac295!8m2!3d-8.436409!4d113.581299">
+    <img src="payangan.jpg" alt="Nature" style="width:100%">
+      </a>
+      <h3>Pantai Payangan</h3>
+      <p>Pantai payangan ini termasuk destinasi wisana unik karena kawasan tersebut menawarkan panorama 3 pantai 3 bukit 1 teluk, tak hanya itu pasir yang hitam serta suara debur ombak membuat pantai payangan ini sebagai tempat berkemah favorit para pelanncong.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+       <a href="https://www.google.com/maps/place/Puger,+Kabupaten+Jember,+Jawa+Timur/@-8.3879178,113.2523113,11z/data=!3m1!4b1!4m5!3m4!1s0x2dd68099ba02972b:0xae69bdc9458c42a8!8m2!3d-8.4779418!4d113.3704466">
+    <img src="puger.jpg" alt="Mountains" style="width:100%">
+    </a>
+      <h3>Pantai Puger</h3>
+      <p>objek wisata yang berlokasi dekat dengan pantai kucur,pancer dan getem cemara selain menawarkan panorama yang terindah, tempat ini juga dikenal juga sebagai tempat pelelangan ikan/ penjualan ikan.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <a href="https://www.google.com/maps/place/Pantai+Papuma/@-8.4310054,113.5515929,16z/data=!3m1!4b1!4m5!3m4!1s0x2dd682a6a4b5cd8d:0xb9c242f3a09e2d2e!8m2!3d-8.4300871!4d113.5536464">
+  <img src="papumasep.jpg" alt="Bear" style="width:100%">
+    </a>
+  <h3>Pantai Pasir Putih Malikan (PAPUMA)</h3>
+  <p>pantai yang berlokasi 30km dari pusat kota jember bertempat di kecamatan sumberejo kecamatan Ambulu, termasuk sebagai salah satu daftar destinasi wisata andalan paling bagus di sekitar jatim.</p>
+  <p>Tanjung Papuma yang dikenal memiliki hamparan pasir putih nan indah dipenuhi dengan pepohonan rimbun membuat spot bagus untuk berfoto, tanjung papuma ini juga menawarkan keindahan karang-karang cantik yang fenomenal di pasir putihnya.</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
